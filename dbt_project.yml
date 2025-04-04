@@ -1,0 +1,15 @@
+name: 'dbt_pokemon'
+
+config-version: 2
+version: '0.1'
+
+profile: 'dbt_pokemon'
+
+seed-paths: ["seeds"]
+
+require-dbt-version: [">=1.0.0", "<2.0.0"]
+
+seeds: 
+  +docs:
+    node_color: '#cd7f32'
+
